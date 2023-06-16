@@ -4,9 +4,9 @@ import mysql.connector  # library koneksi python ke mysql
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="admin123",
+    password="",
     database="dbmasker",
-    auth_plugin="mysql_native_password"
+    # auth_plugin="mysql_native_password"
 )
 #print(mydb)
 # kursor untuk akses di database mysql
